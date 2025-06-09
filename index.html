@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print"
+    onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </noscript>
+
+
+  <title>Ēdienu pasūtīšanas forma</title>
+  <meta name="description" content="Ēdienu pasūtīšanas forma">
+
+</head>
+
+<body>
+  <div class="main-content">
+    <header>
+      <div class="header">
+
+        <img class="logo-img" src="Image/logo.png" alt="logo" width="355" height="113">
+        <a href="#default" class="logo">Ē𝒹𝒾𝑒𝓃𝓊 𝒫𝒶𝓈ū𝓉īš𝒶𝓃𝒶</a>
+        <div class="header-right">
+          <a class="active" href="#home">Ēdienkarte</a>
+          <a href="#grozs">Grozs</a>
+          <a href="#piegade">Piegāde</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="h1" id="home">Ēdienkarte</h1>
+      <div class="menu">
+        <h2 class="menu-group-heading">Sākuma Ēdieni</h2>
+        <div class="menu-group">
+
+          <div class="menu-item">
+            <img src="Image/cabbage-salad-with-apples-and-walnuts.avif" alt="Kāpostu salāti ar āboliem"
+              class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Kāpostu Salāti</span>
+                <span class="menu-item-price">$8.99</span>
+              </h3>
+              <p class="menu-item-desc">Šie kraukšķīgie un svaigie kāpostu-ābolu salāti satur burkānus, valriekstus un
+                krēmīgu Gorgonzolas sieru.</p>
+              <button class="add-button" data-name="Kāpostu Salāti" data-price="8.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <img src="Image/crispy-leeks-with-parm-and-lemon.avif" alt="Kraukšķīgie citrona-parmezāna puravi"
+              class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Citrona-parmezāna puravi</span>
+                <span class="menu-item-price">$9.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Izbaudiet grauzdēto puravu saldo un maigo garšu ar šo eleganto un unikālo pusi. Puravus sagriež kārtās
+                un
+                pārber ar pikantu parmezāna sieru un citrona miziņu, kas karstā cepeškrāsnī kraukšķinās.
+              </p>
+              <button class="add-button" data-name="Citrona-parmezāna puravi" data-price="9.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <img src="Image/Spinātu_salāti.avif" alt="Spinātu Salāti" class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Spinātu salāti</span>
+                <span class="menu-item-price">$4.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Spilgti spinātu salāti ar saldām notīm no svaigiem apelsīnu daiviņām un sāļo fetas sieru
+              </p>
+              <button class="add-button" data-name="Spinātu Salāti" data-price="4.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">Pamatēdieni</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img src="Image/Cūkgaļas_carnitas.avif" alt="Cūkgaļas Carnitas" class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Cūkgaļas Carnitas</span>
+                <span class="menu-item-price">$14.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Lēni sautēta cūkgaļa, kas izceļas ar sulīgumu un bagātīgu garšu. Mīksti, kraukšķīgi gabaliņi, kas
+                lieliski
+                sader gan tacos, gan burritos,
+              </p>
+              <button class="add-button" data-name="Cūkgaļas Carnitas" data-price="14.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Image/Auksta-zupa-1024x683.avif" alt="Aukstā Zupa" class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Aukstā Zupa</span>
+                <span class="menu-item-price">$7.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Atsvaidzinoša, viegla un krāsām bagāta zupa, kas gatavota no vārītām bietēm, gurķiem, olām, dillēm un
+                kefīra.
+              </p>
+              <button class="add-button" data-name="Aukstā Zupa" data-price="7.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Image/soļanka.avif" alt="Labākā Soļanka" class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Labākā Soļanka</span>
+                <span class="menu-item-price">$7.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Izmantos vairāku veidu gaļu un nieres, laika taupītāji pievienos desu un cīsiņus. Katram sava labākā
+                soļanka!
+              </p>
+              <button class="add-button" data-name="Labākā Soļanka" data-price="7.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="menu">
+        <h2 class="menu-group-heading">Deserti</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img src="Image/Maizes_pudiņš.avif" alt="Maizes Pudiņš" class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Maizes Pudiņš</span>
+                <span class="menu-item-price">$5.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Sviesta kruasānu “maizes pudiņš” ar krēmsieru, svaigām ogām un putukrējumu.
+              </p>
+              <button class="add-button" data-name="Maizes Pudiņš" data-price="5.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Image/Biezpiena_mājiņa.avif" alt="Biezpiena Mājiņa" class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Biezpiena Mājiņa</span>
+                <span class="menu-item-price">$9.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Kāds taisa biezpiena kūku, kāds skaistas mājiņās.
+              </p>
+              <button class="add-button" data-name="Biezpiena Mājiņa" data-price="9.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Image/Biezpiena_krēms_aveņu_mērce.avif" alt="Biezpiena Krēms Aveņu Mērcē"
+              class="menu-item-img" />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Biezpiena Krēms Aveņu Mērcē</span>
+                <span class="menu-item-price">$4.99</span>
+              </h3>
+              <p class="menu-item-desc">
+                Saldais biezpiena krēms ar aveņu mērci un grauzdētām auzu pārslām
+              </p>
+              <button class="add-button" data-name="Biezpiena Krēms Aveņu Mērcē" data-price="4.99">Pievienot<i
+                  class="fas fa-shopping-cart icon-space"></i></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+
+
+
+
+    <section class="c-cart" id="c-cart">
+      <!-- Cart Sidebar -->
+      <aside class="cart-sidebar">
+        <div class="cart-card">
+          <h3 class="cart-title" id="grozs">
+            <i class="fas fa-shopping-cart"></i>
+            Jūsu Grozs
+          </h3>
+
+          <div class="cart-content" id="cartContent">
+            <!-- Cart items will be loaded here -->
+          </div>
+          <div class="cart-empty" id="cartEmpty">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Jūsu grozs ir tukšs</p>
+            <small>Pievienojiet ēdienus, lai sāktu pasūtījumu</small>
+          </div>
+          <div class="cart-summary" id="cartSummary" style="display: none;">
+            <div class="summary-row">
+              <span>Starpsumma:</span>
+              <span id="subtotalAmount">€0.00</span>
+            </div>
+            <div class="summary-row">
+              <span>PVN (21%):</span>
+              <span id="vatAmount">€0.00</span>
+            </div>
+            <div class="summary-row total">
+              <span>Kopā:</span>
+              <span id="totalAmount">€0.00</span>
+            </div>
+            <button class="checkout-btn" id="continueOrderBtn">
+              Turpināt Pasūtījumu
+            </button>
+          </div>
+        </div>
+      </aside>
+
+
+      <div class="cart-card delivery-info">
+        <form class="delivery-form ">
+          <h2 id="piegade">Piegādes informācija</h2>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">Vārds:</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="form-group">
+              <label for="lastName">Uzvārds:</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+          </div>
+
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="address">Adrese:</label>
+              <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+              <label for="city">Pilsēta:</label>
+              <input type="text" id="city" name="city" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="postalCode">Pasta indekss:</label>
+              <input type="text" id="postalCode" name="postalCode" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefona numurs:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+
+          <label for="notes">Papildu informācija (nav obligāta):</label>
+          <textarea class="textarea" id="notes" name="notes" rows="3"></textarea>
+
+          <button type="submit" class="checkout-btn">Apstiprināt pasūtījumu</button>
+        </form>
+
+
+      </div>
+    </section>
+  </div>
+
+
+
+  <footer class="site-footer">
+    <div class="footer-top">
+
+      <p>Izstrādāts ar <i class="fa-solid fa-heart" style="color: #ff0000;"></i></p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Ēdiena Pasūtīšana</p>
+      <p>Visas tiesības aizsargātas</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src="index.js" defer></script>
+</body>
+
+
+</html>
